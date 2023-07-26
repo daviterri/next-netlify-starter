@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import React from 'react';
 
 export default function Home() {
   return (
@@ -35,10 +36,9 @@ export default function Home() {
         {/* Add a footer section with relevant information */}
       </footer>
     </div>
+      <Footer />
+    </div>
   );
 };
 
-      <Footer />
-    </div>
-  )
-}
+export default HomePage;
