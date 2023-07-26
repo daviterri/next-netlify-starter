@@ -1,6 +1,7 @@
 // pages/rejuvenating.js
 import Head from 'next/head';
 import React from 'react';
+import styles from '../styles/rejuvenating.module.css';
 
 const RejuvenatingPage = () => {
   return (
@@ -13,7 +14,7 @@ const RejuvenatingPage = () => {
         {/* Create a navigation bar or any header content */}
       </header>
       <main>
-        <section className="hero">
+        <section className={styles.hero}>
           {/* Add a hero section with an appealing image or background */}
           <div className="hero-content">
             <h1>Rejuvenating</h1>
@@ -23,13 +24,13 @@ const RejuvenatingPage = () => {
           </div>
         </section>
 
-        <section className="about">
+        <section className={styles.about}>
           {/* Add information about rejuvenating */}
           <h2>About Rejuvenating</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </section>
 
-        <section className="features">
+        <section className={styles.features}>
           {/* Add key features of the rejuvenating program */}
           <h2>Key Features</h2>
           <ul>
@@ -40,13 +41,13 @@ const RejuvenatingPage = () => {
           </ul>
         </section>
 
-        <section className="testimonials">
+        <section className={styles.testimonials}>
           {/* Add testimonials or reviews from happy customers */}
           <h2>Testimonials</h2>
           {/* Add individual testimonial components */}
         </section>
 
-        <section className="cta">
+        <section className={styles.cta}>
           {/* Add a call-to-action section to encourage sign-ups or purchases */}
           <h2>Ready to Rejuvenate?</h2>
           <p>Start your journey to a healthier and happier you today.</p>
